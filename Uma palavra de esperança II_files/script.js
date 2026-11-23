@@ -4,7 +4,7 @@
   Brasil: 55 + DDD + número. Use apenas números, sem espaços ou símbolos.
   Exemplo fictício: 5596999999999
 */
-const WHATSAPP_JEFFERSON = "5596981444101";
+const WHATSAPP_JEFFERSON = "111";
 const WHATSAPP_LIDER = "COLOQUE_AQUI_O_NUMERO_DA_LIDER";
 
 function configureWhatsAppLink(elementId, phone, message) {
@@ -27,7 +27,7 @@ function configureWhatsAppLink(elementId, phone, message) {
 
 configureWhatsAppLink(
   "jefferson-link",
-  WHATSAPP_JEFFERSON,
+  WHATSAPP_1,
   "Olá! Encontrei o contato pelo cartão e gostaria de conversar."
 );
 configureWhatsAppLink(
